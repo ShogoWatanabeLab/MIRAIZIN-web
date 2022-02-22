@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MIRAIZIN</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style-miraizin-header.css">
+    <link rel="stylesheet" href="styles/style-miraizin-main.css">
+    <link rel="stylesheet" href="styles/style-miraizin-footer.css">
 </head>
+
 <body>
     <header>
+        <a href="index.html">
+            <img src="images/miraizi-icon.jpg" class="miraizin-icon">
+        </a>
+
+        <nav class="main-menu">
+            <ul>
+                <li>COMPANY</li>
+                <li>SERVICE</li>
+                <li>NEWS</li>
+                <li>ACCESS</li>
+            </ul>
+        </nav>
+
+        <form action="cgi-bin/example.cgi" method="post" class="search-form">
+            <input type="search" name="search" placeholder="キーワードで探す" class="sf-box">
+            <input type="submit" name="submit" value="検索" class="sf-button">
+        </form>
+
+        <img src="images/shake-hands-icon.jpg" class="shake-hands-icon">
+        <img src="images/cheer-icon.jpg" class="cheer-icon">
+        <img src="images/light-icon.jpg" alt="light-icon" class="light-icon">
+
     </header>
     <main>
-        <h1>
-            MIRAIZIN
-        </h1>
-        <img src="images/miraizi-icon.jpg" alt="miraizi icon" width="50%" height="50%">
-
-        <section>
-            <h2>
-                We are MIRAIZIN
-            </h2>
-            <ul>
-                <li>Introduction</li>
-                <li>Job</li>
-                <li>Access</li>
-            </ul>
-        </section>
-
-        <section>
-            <div>
-                We are MIRAIZIN. We support your dreams. <br>
-                We will anticipate and overcome the barriers that humankind must overcome before anyone else.<br>
-                Now, let's become MIRAIZIN too. I wish you good luck.
-            </div>
-        </section>
-
-        <section>
-            <div>
-                Please access
-                <a href="https://www.google.com">Google page</a>
-                if you want.
-            </div>
-        </section>
+        <div class="main-title">
+            <img src="images/space.jpg" alt="space" class="background-space">
+            <h1>
+                Welcome to MIRAIZIN
+            </h1>
+        </div>
     </main>
-    <footer></footer>
-    <button>
-        Change user
-    </button>
-    <script src="scripts/main.js"></script>
+
+    <footer>
+        <div class="footer-class">
+            <p>
+                Copy right MIRAIZIN
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>

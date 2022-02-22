@@ -1,0 +1,11 @@
+footer{
+    width: auto;
+    height: 50px;
+    background-color: blue;
+}
+
+.footer-class p{
+    margin: 0;
+    color: whitesmoke;
+    padding: auto;
+}
